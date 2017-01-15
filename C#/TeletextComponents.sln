@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{D44FD435-4967-4330-9FF2-6439EEBC8657}"
+	ProjectSection(ProjectDependencies) = postProject
+		{040FBE3B-4B57-4364-927F-5998A691DADA} = {040FBE3B-4B57-4364-927F-5998A691DADA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeletextRenderer", "TeletextRenderer\TeletextRenderer.csproj", "{040FBE3B-4B57-4364-927F-5998A691DADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D44FD435-4967-4330-9FF2-6439EEBC8657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44FD435-4967-4330-9FF2-6439EEBC8657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44FD435-4967-4330-9FF2-6439EEBC8657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44FD435-4967-4330-9FF2-6439EEBC8657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040FBE3B-4B57-4364-927F-5998A691DADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040FBE3B-4B57-4364-927F-5998A691DADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040FBE3B-4B57-4364-927F-5998A691DADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040FBE3B-4B57-4364-927F-5998A691DADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
