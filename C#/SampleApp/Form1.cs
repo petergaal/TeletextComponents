@@ -17,8 +17,10 @@ namespace SampleApp
             InitializeComponent();
 
             GPsoft.Teletext.Font font = new GPsoft.Teletext.Font();
-            GPsoft.Teletext.CodePage codePage = new GPsoft.Teletext.CodePage();
-            
+            //GPsoft.Teletext.CodePage codePage = new GPsoft.Teletext.CodePage();
+            //GPsoft.Teletext.CodePage codePage = new GPsoft.Teletext.LatinG0CodePage();
+            GPsoft.Teletext.CodePage codePage = new GPsoft.Teletext.EnglishCodePage();
+
             GPsoft.Teletext.TTXRenderer renderer = new GPsoft.Teletext.TTXRenderer(font, codePage);
             renderer.LoadPage("characters.page");
             

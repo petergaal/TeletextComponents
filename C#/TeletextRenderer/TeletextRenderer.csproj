@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodePage.cs" />
+    <Compile Include="EnglishCodePage.cs" />
     <Compile Include="Font.cs" />
+    <Compile Include="LatinG0CodePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FontResource.Designer.cs">
       <AutoGen>True</AutoGen>
